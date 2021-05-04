@@ -50,7 +50,13 @@ aside{
     font-size: 15px;
     color: hsl(225, 20%, 60%);
     min-width: 500px;
+    width: 500px;
     margin-top: 15px;
+}
+
+.espacio{
+    display: flex;
+    justify-content: center;
 }
 
 .tarrif .page-views{
@@ -60,7 +66,6 @@ aside{
 }
 
 .tarrif .price{
-    flex: 2;
     display: flex;
     justify-content: flex-end;
     transition: all 0.5;
@@ -76,14 +81,14 @@ aside{
     font-size: 40px;
     line-height: 40px;
     font-weight: 800;
-    margin-top: -35px;
+    
 }
 
 .tarrif .price span:last-of-type {
     font-size: 15px;
     align-self: center;
     margin-left: 5px;
-    margin-top: -30px;
+    
 }
 
 .slider{
@@ -215,7 +220,8 @@ hr{
 
 @media (max-width: 600px){
     .container{
-        min-width: 375px;
+        min-width: 375px; 
+        
         
         
 
@@ -232,6 +238,8 @@ hr{
         min-width: 375px;
         padding: 50px 30px;
         margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     .tarrif .price span{
@@ -244,6 +252,8 @@ hr{
         font-size: 30px;
         line-height: 30px;
     }
+
+   
 
     .start{
         flex-direction: column;
