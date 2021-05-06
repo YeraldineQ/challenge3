@@ -22,6 +22,12 @@ body{
     flex-direction: column;
 }
 
+.centrar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 header{
     margin-top: 70px;
     padding: 50px 0;
@@ -49,8 +55,8 @@ aside{
     box-shadow: 0px 0px 15px hsl(227, 35%, 85%);
     font-size: 15px;
     color: hsl(225, 20%, 60%);
-    min-width: 500px;
-    width: 500px;
+    max-width: 550px;
+    width: 100%;
     margin-top: 15px;
 }
 
@@ -235,7 +241,7 @@ hr{
     }
 
     aside{
-        min-width: 375px;
+        
         padding: 50px 30px;
         margin-bottom: 50px;
         margin-left: 50px;
