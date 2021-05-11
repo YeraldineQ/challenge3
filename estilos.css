@@ -88,6 +88,13 @@ aside{
     
 }
 
+.colorn{
+    color: var(--main-color);
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800;
+}
+
 .tarrif .price span:last-of-type {
     font-size: 15px;
     align-self: center;
@@ -101,7 +108,7 @@ aside{
     appearance: none;
     position: relative;
     height: 10px;
-    background: linear-gradient(90deg, hsl(174, 86%, 45%) 30%, hsl(0, 0%, 90%) 70%);;
+    background: linear-gradient(90deg, hsl(174, 86%, 45%) 50%, hsl(0, 0%, 90%) 50%);
 
 }
 
