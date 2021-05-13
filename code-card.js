@@ -38,8 +38,19 @@ slider.addEventListener("input",function(){
     slider.style.background = color;
 
     printPageViews()
+
+    if(mySwitch.checked == true){
+        let x = price.textContent*0.25;
+        price.textContent = price.textContent - x;
+        console.log(x);
+
+    }else{
+        printPageViews()
+    }
    
 });
+
+
 
 
 
@@ -56,4 +67,4 @@ mySwitch.addEventListener("input", function(){
         printPageViews()
     }
    
-})
+});
